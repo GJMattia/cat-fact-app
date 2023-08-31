@@ -1,0 +1,8 @@
+<%- include('../partials/header') %>
+<a href="/">Return to home</a>
+<ol>
+  <% factsArray.forEach(function(fact) { %>
+  <li><%= fact %></li>
+  <% }); %>
+</ol>
+<%- include('../partials/footer') %>
